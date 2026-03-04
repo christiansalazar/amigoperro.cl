@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #111;
+  line-height: 1.5;
+}
+
+h1 {
+   font-size: 15pt;
+   margin-top: 30pt;
+   margin-bottom: 30pt;
+    text-align:justify;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* HEADER CON LOGO */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.logo-img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: 2px solid white;
+  flex-shrink: 0;
+  object-fit: cover;
+  background-color: #FF0042;
+}
+
+.header-text h1 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #111;
+  line-height: 1.2;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  color: #FF0042;
+  font-weight: 500;
+  border-left: 4px solid #FF0042;
+  padding-left: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+/* BOTONES WHATSAPP - IGUALES ARRIBA Y ABAJO */
+.btn-wsp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #FF0042;
+  color: white;
+  font-weight: 700;
+  padding: 0.9rem 1.8rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border: none;
+  width: fit-content;
+}
+
+.btn-wsp:hover {
+  background-color: #e0003a;
+}
+
+.btn-wsp--grande {
+  font-size: 1.3rem;
+  padding: 0.9rem 1.8rem;
+  width: fit-content;
+  max-width: none;
+  margin: 0 auto;
+}
+
+.whatsapp-float {
+  margin: 1rem 0 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp-final {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 1.5rem;
+}
+
+/* REDES SOCIALES CON INTRO */
+.redes-section {
+  margin: 1.5rem 0 1rem;
+  text-align: center;
+}
+
+.redes-intro {
+  font-size: 1.1rem;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.red-link {
+  color: #111;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-bottom: 3px solid #FF0042;
+  padding-bottom: 4px;
+}
+
+.red-link:hover {
+  color: #FF0042;
+  border-bottom-color: #111;
+}
+
+/* TÍTULOS DE SECCIÓN */
+.seccion-titulo {
+  font-size: 1.8rem;
+  margin: 2.5rem 0 1.5rem;
+  color: #111;
+  font-weight: 700;
+  border-bottom: 3px solid #FF0042;
+  padding-bottom: 0.5rem;
+}
+
+/* VALORES PRINCIPALES */
+.valores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.valor {
+  background-color: #f9f9f9;
+  padding: 1.2rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  border-left: 6px solid #FF0042;
+}
+
+.valor-icon {
+  font-size: 1.8rem;
+  color: #FF0042;
+}
+
+.valor-texto {
+  font-weight: 600;
+  color: #111;
+  font-size: 1rem;
+}
+
+/* SERVICIOS */
+.servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.servicio {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  border-left: 6px solid #111;
+}
+
+.servicio-icon {
+  font-size: 1.6rem;
+  color: #FF0042;
+}
+
+.servicio-texto {
+  font-weight: 500;
+  color: #111;
+}
+
+/* CONDICIONES */
+.condiciones {
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-left: 6px solid #FF0042;
+}
+
+.condiciones p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.condiciones p:last-child {
+  margin-bottom: 0;
+}
+
+.condicion-destacada {
+  color: #FF0042;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-right: 0.25rem;
+}
+
+.recargo-nudos {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #ccc;
+}
+
+/* MAPA PINES CON LINK */
+.mapa-pines {
+  background: #FF0042;
+  color: white;
+  padding: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 2.5rem 0 1.5rem;
+  border: none;
+  font-weight: 500;
+}
+
+.mapa-pines strong {
+  color: #111;
+  background: white;
+  padding: 0.2rem 0.8rem;
+  font-weight: 800;
+}
+
+.mapa-link {
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.mapa-link:hover {
+  color: #111;
+}
+
+/* GALERÍA */
+.galeria-titulo {
+  text-align: center;
+  margin: 3rem 0 1rem;
+  font-size: 2rem;
+  color: #111;
+  position: relative;
+}
+
+.galeria-titulo::after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 5px;
+  background: #FF0042;
+  margin: 0.5rem auto 0;
+}
+
+.galeria-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.galeria-intro a {
+  color: #FF0042;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid #FF0042;
+}
+
+.galeria-intro a:hover {
+  color: #111;
+  border-bottom-color: #111;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 3rem;
+}
+
+.foto {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 3px solid #FF0042;
+  background-color: #f0f0f0;
+}
+
+.foto:hover {
+  border-color: #111;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 3px solid #FF0042;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* RESPONSIVE */
+@media (max-width: 550px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-text h1 {
+    font-size: 2rem;
+  }
+  .redes {
+    gap: 1rem;
+  }
+  .valores-grid {
+    grid-template-columns: 1fr;
+  }
+  .servicios-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .btn-wsp, .btn-wsp--grande {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.2rem;
+  }
+}

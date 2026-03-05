@@ -357,6 +357,7 @@ h1 {
   }
   .header-text h1 {
     font-size: 2rem;
+    text-align: center;
   }
   .redes {
     gap: 1rem;

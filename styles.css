@@ -380,4 +380,10 @@ h1 {
       aspect-ratio: unset;
       background-color: unset !Important;
    }
+  h1 {
+    font-size: 12pt;
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+    text-align:justify;
+  }
 }

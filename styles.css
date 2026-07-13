@@ -61,6 +61,21 @@ h1 {
 }
 
 /* BOTONES WHATSAPP - IGUALES ARRIBA Y ABAJO */
+.btn-chat {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #FF0042;
+  color: white;
+  font-weight: 700;
+  padding: 0.9rem 1.8rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border: none;
+  width: fit-content;
+}
+
 .btn-wsp {
   display: inline-flex;
   align-items: center;
@@ -76,6 +91,8 @@ h1 {
   width: fit-content;
 }
 
+
+
 .btn-wsp:hover {
   background-color: #e0003a;
 }
@@ -90,8 +107,9 @@ h1 {
 
 .whatsapp-float {
   margin: 1rem 0 2rem;
-  display: flex;
+  display: grid;
   justify-content: center;
+  gap: 1rem;
 }
 
 .whatsapp-final {
